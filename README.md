@@ -21,3 +21,35 @@ This project provides a complete framework to **model**, **measure**, and **visu
 - plots/ # Output plots: power vs. time, energy charts
 - report/ # Final analysis/report PDFs
 - README.md # Project documentation (this file)
+---
+
+---
+
+## ⚙️ Hardware & Tools
+
+- 📍 **Microcontroller/SoC**: ESP32 / STM32 / Raspberry Pi
+- 🔌 **Power Sensor**: INA219, INA260, or shunt resistor + op-amp
+- 🧰 **Tools**: Python (pandas, matplotlib), logic analyzer, multimeter
+
+---
+
+## 📈 Example Use Cases
+
+- Sleep vs. Active power profiling
+- Sensor polling + radio transmission energy analysis
+- Comparing firmware versions for energy efficiency
+- Benchmarking two different SoCs
+
+---
+
+## 🚀 How to Run
+
+1. **Connect INA219 Sensor** between the SoC and power supply.
+2. **Configure I2C** communication on the microcontroller.
+3. **Run logging script**:
+   ```bash
+   cd scripts
+   python power_logger.py
+---
+✍️ Author:
+Bright — Electrical & Computer Engineering
