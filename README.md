@@ -52,4 +52,5 @@ This project provides a complete framework to **model**, **measure**, and **visu
    python power_logger.py
 ---
 ✍️ Author:
+
 Bright — Electrical & Computer Engineering
