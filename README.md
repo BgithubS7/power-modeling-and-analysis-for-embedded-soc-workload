@@ -1,1 +1,1 @@
-# wireless-respiration-rate-monitor
+# power modelling and analysis for embedded soc workload
